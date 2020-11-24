@@ -122,8 +122,8 @@ def thread_run():
     a = []
     b = []
 
-    result = bsObject.select('td:nth-of-type(6)')
-    number = bsObject.select('td:nth-of-type(7)')
+    result = bsObject.select('####비공개####')
+    number = bsObject.select('####비공개####')
 
     for r in result:
         a.append(r.text)
